@@ -1,11 +1,14 @@
 {
-  "name": "json-loader",
-  "version": "0.5.2",
+  "name": "compact-json-loader",
+  "version": "0.1.0",
   "author": "Tobias Koppers @sokra",
-  "description": "json loader module for webpack",
+  "description": "compact json loader module for webpack",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/webpack/json-loader.git"
+    "url": "https://github.com/also/compact-json-loader.git"
+  },
+  "scripts": {
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
   }
 }
